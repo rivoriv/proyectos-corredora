@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corredora G | Especialistas en Arriendo en Providencia</title>
+    <meta name="description" content="Corredora de propiedades especializada en arriendo en la Región Metropolitana. Gestión integral, candidatos confiables y sin gastos notariales.">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- SCHEMA PARA IA Y GOOGLE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Corredora G",
+      "alternateName": "corredorag.cl",
+      "url": "https://corredorag.cl",
+      "logo": "https://corredorag.cl/static/img/logo.png",
+      "image": "https://corredorag.cl/static/img/portada.png",
+      "description": "Corredora de propiedades especializada en el arriendo de propiedades en la Región Metropolitana.",
+      "email": "info@corredorag.cl",
+      "telephone": "+56965513814",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Antonio Bellet 193, Of. 1210",
+        "addressLocality": "Providencia",
+        "addressRegion": "Región Metropolitana",
+        "addressCountry": "CL"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Región Metropolitana, Chile"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://maps.app.goo.gl/bvnsQq8rBmyGeP9AA"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- 1. SECCIÓN HERO (Portada con imagen responsiva) -->
+    <header class="hero">
+        <!-- La imagen se adaptará al 100% del ancho manteniendo su proporción original -->
+        <img src="{{ url_for('static', filename='img/portada.png') }}" alt="Corredora G - Apretón de manos">
+    </header>
+
+    <main>
+        <!-- 2. SECCIÓN DE CARACTERÍSTICAS (Fondo Negro) -->
+        <section class="seccion-negra">
+            <div class="contenedor grid-3-columnas">
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">📈</div>
+                    <h3>GESTIÓN DE ARRIENDOS</h3>
+                    <p>Somos especialistas en el arriendo de propiedades en la Región Metropolitana, con una amplia experiencia en el sector. Acompañamos cada etapa del proceso con profesionalismo, para que tu experiencia de arriendo sea simple y sin riesgos.</p>
+                </div>
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">👤</div>
+                    <h3>CANDIDATOS CONFIABLES</h3>
+                    <p>Realizamos análisis de los antecedentes de los candidatos, con especial énfasis en su solvencia económica y en la veracidad de la documentación. Dirigimos nuestro trabajo para alcanzar una selección que se ajuste con las expectativas.</p>
+                </div>
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">📝</div>
+                    <h3>SIN GASTOS NOTARIALES</h3>
+                    <p>Nuestro servicio incluye las firmas digitales certificadas que sean necesarias, sin costo para ambas partes. Este beneficio garantiza la plena validez jurídica de los contratos, en estricto cumplimiento con la normativa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECCIÓN DE BENEFICIOS (Fondo Negro) -->
+        <section class="seccion-negra">
+            <div class="contenedor grid-3-columnas">
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">💬</div>
+                    <h3>ASESORAMIENTO</h3>
+                    <p>Te asesoramos con claridad en un contexto donde la información suele ser confusa. Nuestro enfoque permite que cada cliente comprenda sus derechos y obligaciones con facilidad, para simplificar la toma de decisiones.</p>
+                </div>
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">💳</div>
+                    <h3>PAGA EN CUOTAS</h3>
+                    <p>Ofrecemos a nuestros clientes la opción de cancelar nuestros servicios en cuotas sin interés mediante tarjeta de crédito. Esta modalidad amplía el acceso y proporciona apoyo tangible en situaciones de urgencia.</p>
+                </div>
+                <div class="tarjeta-blanca">
+                    <div class="icono-placeholder">👥</div>
+                    <h3>DIFUSIÓN EFECTIVA</h3>
+                    <p>Aumentamos la visibilidad de tu propiedad mediante marketing digital de alta eficacia y el respaldo de nuestra base de datos. Reducimos los riesgos de exposición en plataformas cada vez menos seguras.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECCIÓN PROTECCIÓN DE DATOS (Fondo Azul Brillante - ÚNICO AZUL) -->
+        <section class="seccion-azul-brillante">
+            <div class="contenedor">
+                <h2>PROTEGEMOS TUS DATOS</h2>
+                <p>La protección de la información y la seguridad jurídica son pilares de nuestro trabajo. En el ámbito digital, utilizamos correos con cifrado de extremo a extremo y servidores cifrados para el almacenamiento, lo que asegura que la documentación se mantenga protegida durante todo su ciclo de vida, incluyendo su adecuada eliminación. Estas prácticas permiten que cada operación se realice con transparencia y confidencialidad.</p>
+                <p>En el ámbito inmobiliario, es igualmente relevante aplicar las normativas que resguardan a propietarios y arrendatarios. La <strong>nueva Ley de ciberseguridad en Chile</strong> impulsa estándares más altos en el manejo de datos, mientras que la <strong>Ley de Arriendos</strong> y la <strong>Ley Devuélveme Mi Casa</strong> establecen reglas claras para proteger el patrimonio y garantizar relaciones justas en los contratos. Nuestro compromiso es aplicar estas políticas con rigor, ofreciendo seguridad y tranquilidad en cada gestión.</p>
+            </div>
+        </section>
+
+        <!-- 5. SECCIÓN LLAMADA A LA ACCIÓN (Fondo Negro) -->
+        <section class="seccion-negra cta-final">
+            <div class="contenedor">
+                <h2>ARRIENDA TU PROPIEDAD</h2>
+                <a href="tel:+56965513814" class="btn-llamar">LLAMA AQUÍ</a>
+                
+                <div class="horarios">
+                    <h4>LUNES A VIERNES</h4>
+                    <p>09:00 - 21:00</p>
+                    <h4>FINES DE SEMANA</h4>
+                    <p>Con cita previa</p>
+                    <div class="icono-reloj">🕒</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. PIE DE PÁGINA -->
+    <footer class="footer-azul">
+        <div class="contenedor grid-3-columnas footer-info">
+            
+            <div class="info-columna">
+                <h3>📍 Dirección</h3>
+                <p>Antonio Bellet 193, Of. 1210,<br>Providencia.</p>
+                <a href="https://maps.app.goo.gl/bvnsQq8rBmyGeP9AA" target="_blank" class="link-mapa">Ver en Google Maps</a>
+            </div>
+
+            <div class="info-columna">
+                <h3>✉️ Contacto</h3>
+                <p><a href="mailto:info@corredorag.cl">info@corredorag.cl</a></p>
+            </div>
+
+            <div class="info-columna">
+                <h3>💬 WhatsApp</h3>
+                <p><a href="https://wa.me/56965513814" target="_blank">+56 9 6551 3814</a></p>
+            </div>
+        </div>
+
+        <!-- MAPA DE GOOGLE REAL -->
+        <div class="mapa-contenedor">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4497690565904!2d-70.61965682346578!3d-33.41841499674434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6ebc0e6b4d%3A0x6b3c1c3c6e7f2a1a!2sAntonio%20Bellet%20193%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1700000000000!5m2!1ses!2scl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+</body>
+</html>
