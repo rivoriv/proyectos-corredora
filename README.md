@@ -26,3 +26,7 @@ Sitio web oficial con Flask, HTML5 y CSS3. Incluye landing page, información de
 - **Git** — control de versiones
 
 ## Estructura
+
+    proyectos-corredora/
+    ├── yapo-buscador/      # Algoritmos de búsqueda en Yapo.cl
+    └── corredorag-web/     # Sitio web de la corredora
